@@ -1,0 +1,108 @@
+
+.card-container {
+	z-index: 998;
+  
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.backButton {
+  left: 10%;
+  background-color: rgba(214, 155, 155, 0.932) !important;
+  color: black !important;
+}
+
+.card {
+	z-index: 1000;
+  cursor: pointer;
+	 position: relative;
+	 width: 400px;
+	 height: 575px;
+	 border: 10px solid rgba(214, 155, 155, 0.637);
+	 margin: 0px auto 0 auto;
+	 box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: rgb(122,89,228);
+}
+ .card .text-container {
+	 width: 80%;
+	 height: 80%;
+	 margin: auto;
+	 font-family: 'Montserrat', sans-serif;
+	 
+}
+ .strikethrough {
+	 text-decoration: line-through;
+}
+ .card .text-container #head {
+	 color: rgb(160,208,248);
+	 font-size: 1.6em;
+	 font-weight: bold;
+	 margin: 60px auto 60px auto;
+}
+ .card .txt {
+	 font-size: 1.05em;
+	 line-height: 1.37;
+	 font-weight: bolder;
+	 color: rgb(248,221,116);
+	 text-align: center;
+	 margin: 30px auto 0px auto;
+}
+ .card .front {
+	 position: absolute;
+	 width: 400px;
+	 height: 575px;
+	 margin: -10px 0px 0px -10px;
+	 border: 10px solid rgba(214, 155, 155, 0.637);
+	 backface-visibility: hidden;
+	 background-color: rgba(214, 155, 155, 0.637);
+	/* background-image: url($cover-image);
+	 */
+	 background-size: contain;
+	 transform-style: preserve-3d;
+	 transform-origin: 0% 50%;
+	 transform: perspective(800px) rotateY(0deg);
+	 transition: all 0.8s ease-in-out;
+}
+ .card:hover .front {
+	 transform: perspective(800px) rotateY(-170deg);
+	 }
+ .card:hover .back {
+	 transform: perspective(800px) rotateY(-170deg);
+	 box-shadow: 7px 0px 5px 0px rgba(0, 0, 0, 0.3), inset 2px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	}
+ .card .back {
+	 position: absolute;
+	 width: 400px;
+	 height: 575px;
+	 border: 10px solid rgba(214, 155, 155, 0.637);
+	 margin: -10px 0px 0px -10px;
+	 backface-visibility: visible;
+	 filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, .5));
+	 transform-style: preserve-3d;
+	 transform-origin: 0% 0%;
+	 transform: perspective(800px) rotateY(0deg);
+	 transition: all 0.8s ease-in-out;
+	 background-color: #e6f0e6;
+	 box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imgset
+{
+	height: 539px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -215px;
+}
+.imgset img
+{
+  height: 354px;
+    box-shadow: 0px 6px 11px 7px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+}
