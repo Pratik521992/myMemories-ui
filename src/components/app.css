@@ -29,8 +29,16 @@
 }
 
 
-.area{
+.area1{
     background: -webkit-linear-gradient(to left, #8f94fb, rgba(214, 155, 155, 0.637));  
+    width: 100%;
+    height:100vh;
+    position: relative;
+   
+}
+
+.area2{
+    background: -webkit-linear-gradient(to left, #f8db39, rgba(214, 155, 155, 0.637)) ;  
     width: 100%;
     height:100vh;
     position: relative;

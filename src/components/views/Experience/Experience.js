@@ -7,6 +7,7 @@ import Envelope from "../Envelope/Envelope";
 import { useSelector } from "react-redux";
 import WishCard from "../wishCard/wishCard";
 import { FormControlLabel, Switch } from "@material-ui/core";
+import Circles from "./Circles";
 export const Experience = () => {
     const [selectedIndex, setIndex] = useState(0);
     const wishes = [
@@ -90,40 +91,8 @@ export const Experience = () => {
                                     <img id="1" src="https://assets.codepen.io/61488/duda-intro-2.jpg" height="350" width="350" alt="Petrie the Powderpuff" />
                                 </div>
                             </div>
-
-
                             <div className="messages1">
-
-                                {" "}
-
-                                <div class="">
-                                    <ul class="circles">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
+                                <Circles />
                                 <div className="msg-container">
                                     <h1 className="wish-msg-2">
                                         <span >"Many Many happy returns of the day"</span>
@@ -131,132 +100,77 @@ export const Experience = () => {
                                     </h1>
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
                     <div className="area panel" id="rightPanel">
-
                         <WishCard wish={wishes[selectedIndex]} />
-                        {" "}
-
-                        <div class="">
-                            <ul class="circles">
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
+                        <Circles />
                     </div>
 
                     <div id="container">
-
-                        <div className="module "> <div className="gradient-right-pannel">
-
-                        </div></div>
-                        <div className="module area">
+                        <div className="module ">
+                            <div className="gradient-right-pannel">
+                            </div></div>
+                        <div className="module area1">
                             <div className="envelope-container-exp">
                                 <div onClick={() => setIndex(1)} className="gradient-right-pannel">
                                     <img id="1" src="https://assets.codepen.io/61488/duda-intro-2.jpg" height="550" width="550" alt="Petrie the Powderpuff" />
                                 </div>
                                 <FormControlLabel
-                                style={{fontSize: '44px', marginLeft: '24px'}}
-                                    control={<Switch checked={selectedIndex === 1} onChange={() => setIndex(1)}name="checkedA" />}
-                                    label={selectedIndex === 1? "Loaded" : "Click to load"}
+                                    style={{ fontSize: '44px', marginLeft: '24px' }}
+                                    control={<Switch checked={selectedIndex === 1} onChange={() => setIndex(1)} name="checkedA" />}
+                                    label={selectedIndex === 1 ? "Loaded" : "Click to load"}
                                 />
-                                {" "}
-
-                                <div class="">
-                                    <ul class="circles">
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-
+                                <Circles />
                             </div>
                         </div>
-                        <div className="module ">
+                        <div className="module area2">
                             <div className="envelope-container-exp">
                                 <div onClick={() => setIndex(2)} className="gradient-right-pannel">
                                     <img id="1" src="https://assets.codepen.io/61488/duda-intro-2.jpg" height="350" width="350" alt="Petrie the Powderpuff" />
                                 </div>
-                                
                                 <FormControlLabel
-                                    control={<Switch checked={selectedIndex === 2} onChange={() => setIndex(2)}name="checkedA" />}
+                                    control={<Switch checked={selectedIndex === 2} onChange={() => setIndex(2)} name="checkedA" />}
                                     label="Secondary"
                                 />
+                                <Circles />
                             </div>
                         </div>
-                        <div className="module ">
+                        <div className="module area1">
                             <div className="envelope-container-exp">
                                 <div onClick={() => setIndex(3)} className="gradient-right-pannel">
                                     <img id="1" src="https://assets.codepen.io/61488/duda-intro-2.jpg" height="350" width="350" alt="Petrie the Powderpuff" />
                                 </div>
                                 <FormControlLabel
-                                    control={<Switch checked={selectedIndex === 3} onChange={() => setIndex(3)}name="checkedA" />}
+                                    control={<Switch checked={selectedIndex === 2} onChange={() => setIndex(2)} name="checkedA" />}
                                     label="Secondary"
                                 />
+                                <Circles />
                             </div>
                         </div>
-                        <div className="module ">
+                        <div className="module area1">
                             <div className="envelope-container-exp">
                                 <div className="gradient-right-pannel">
                                     <img id="1" src="https://assets.codepen.io/61488/duda-intro-2.jpg" height="350" width="350" alt="Petrie the Powderpuff" />
                                 </div>
-
-
+                                <FormControlLabel
+                                    control={<Switch checked={selectedIndex === 2} onChange={() => setIndex(2)} name="checkedA" />}
+                                    label="Secondary"
+                                />
+                                <Circles />
                             </div>
                         </div>
-                        <div className="module ">
+                        <div className="module area2">
                             <div className="envelope-container-exp">
                                 <div className="gradient-right-pannel">
                                     <img id="1" src="https://assets.codepen.io/61488/duda-intro-2.jpg" height="350" width="350" alt="Petrie the Powderpuff" />
                                 </div>
-
-
+                                <FormControlLabel
+                                    control={<Switch checked={selectedIndex === 2} onChange={() => setIndex(2)} name="checkedA" />}
+                                    label="Secondary"
+                                />
+                                <Circles />
                             </div>
                         </div>
 
