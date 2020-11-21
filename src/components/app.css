@@ -166,6 +166,12 @@
     clip-path: polygon(1% 25%, 100% 0%, 100% 75%, 0% 100%);
 }
 
+.main-video {
+    width: 100vw;
+    background-color: rgba(255, 192, 203, 0.534);
+    opacity: 0.2;
+}
+
 .enter-btn {
     background-color: black !important;
     color: white !important;

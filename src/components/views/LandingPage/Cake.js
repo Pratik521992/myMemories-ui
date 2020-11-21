@@ -4,10 +4,13 @@ import "./cake.scss";
 function Cake() {
   return (
     <div className="app">
+      <video autoPlay poster="" className="main-video" loop muted>
+        <source src="./Gift.mp4" autoPlay loop type="video/mp4" />
+      </video>
       <div className="msg-container">
         <h1>
-          <span>"</span>
-          <span>"</span>
+          <span>"Happy Birthday</span>
+          <span>Juhi"</span>
         </h1>
       </div>
       <div className="cake">

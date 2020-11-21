@@ -18,7 +18,7 @@ function NavBar() {
   return (
     <nav className="menu" style={{ position: 'fixed', zIndex: 5000, width: '100%' }}>
       <div className="menu__logo">
-        <a style={{ color: '#f4366f8f' }} href="/">Memories</a>
+        <a style={{ color: '#f4366f8f', fontFamily: 'Montserrat, sans-serif' }} href="/">myMemories</a>
       </div>
       <div className="menu__container">
         <div className="menu_left">
