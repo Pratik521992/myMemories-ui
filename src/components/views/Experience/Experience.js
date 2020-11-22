@@ -60,7 +60,7 @@ export const Experience = () => {
             id : "Nidhidi/anshuman",
             index: 5,
             image: "/pinchu.jpg",
-            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈 ",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈 ",
             wishes: "Dear Juhi, Wish you a very happy birthday! Always stay your cheerful, bubbly, kind, smart, beautiful, and caring self. Anshuman and I wish you many happy and blissful moments in the coming year. May all your wishes come true! 😍🎊🎁🎂",
             writerName: "Nidhi and Anshuman"
         },
@@ -88,17 +88,18 @@ export const Experience = () => {
             main: "3",
             wishes: " NA",
             writerName: "NA"
+        },        
+        {
+            id : "pranay",
+            index: 9,
+            image: "/pranay.png",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Happy birthday to one of the nicest people I have ever met. Your this year will be way better than 2020. May this year we all get together to party and celebrate. Happy Bday Juhi !! May you get all the success and happiness in life.",
+            writerName: "Pranay"
         },
         {
             id : "samba/suman",
             image: "/friendsall.jpg",
-            index: 9,
-            main: "3",
-            wishes: " asdasd",
-            writerName: "NA"
-        },
-        {
-            id : "pranay",
             index: 10,
             main: "3",
             wishes: " asdasd",
