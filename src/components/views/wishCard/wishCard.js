@@ -7,6 +7,7 @@ import { closeWishModal, getNextPage } from "../../../_actions/modal_actions";
 import Dialog from '@material-ui/core/Dialog';
 
 function WishCard({wish}) {
+  console.log(wish)
   let timer = null;
   var card = "";
   const dispatch = useDispatch();

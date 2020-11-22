@@ -24,27 +24,6 @@ function NavBar() {
         <div className="menu_left">
           <LeftMenu mode="horizontal" />
         </div>
-        <div className="menu_rigth">
-          <RightMenu mode="horizontal" />
-        </div>
-        <Button
-          className="menu__mobile-button"
-          type="primary"
-          onClick={showDrawer}
-        >
-          <Icon type="align-right" />
-        </Button>
-        <Drawer
-          title="Basic Drawer"
-          placement="right"
-          className="menu_drawer"
-          closable={false}
-          onClose={onClose}
-          visible={visible}
-        >
-          <LeftMenu mode="inline" />
-          <RightMenu mode="inline" />
-        </Drawer>
       </div>
     </nav>
   )

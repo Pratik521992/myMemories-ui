@@ -17,6 +17,7 @@
 
 .card {
 	z-index: 1000;
+	opacity: 1 !important;
   cursor: pointer;
 	 position: relative;
 	 width: 400px;
@@ -28,7 +29,7 @@
 background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  background-color: rgb(122,89,228);
+  background-color: #fbeaeb;
 }
  .card .text-container {
 	 width: 80%;
@@ -41,16 +42,18 @@ background-position: center; /* Center the image */
 	 text-decoration: line-through;
 }
  .card .text-container #head {
-	 color: rgb(160,208,248);
-	 font-size: 1.6em;
-	 font-weight: bold;
+	 text-align: center;
+	 color: #141a46;
+	 font-size: 1.9em;
+	 line-height: 1.37;
+	 font-weight: bolder;
 	 margin: 60px auto 60px auto;
 }
  .card .txt {
 	 font-size: 1.05em;
 	 line-height: 1.37;
 	 font-weight: bolder;
-	 color: rgb(248,221,116);
+	 color: #2f3c7e;
 	 text-align: center;
 	 margin: 30px auto 0px auto;
 }
