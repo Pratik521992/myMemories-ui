@@ -58,7 +58,7 @@ function LandingPage() {
         <Cake />
         <div className="hero-title">
           <Link to="/experience">
-            <Button variant="contained" className="enter-btn">Enter Experience</Button>
+            <Button variant="contained" className="enter-btn">My Wishes</Button>
           </Link>
         </div>
         <div className="hero-cta">Scroll to discover</div>

@@ -45,16 +45,19 @@ background-position: center; /* Center the image */
 	 text-align: center;
 	 color: #141a46;
 	 font-size: 1.9em;
+	
 	 line-height: 1.37;
 	 font-weight: bolder;
 	 margin: 60px auto 60px auto;
+	 
 }
+
  .card .txt {
 	 font-size: 1.05em;
 	 line-height: 1.37;
 	 font-weight: bolder;
 	 color: #2f3c7e;
-	 text-align: center;
+	 text-align: start;
 	 margin: 30px auto 0px auto;
 }
  .card .front {

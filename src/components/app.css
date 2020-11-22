@@ -177,9 +177,6 @@
     height: 44px;
     width: 244px !important;
 }
-body {
-    font-family: "Archivo Black", sans-serif;
-  }
   
   .hero-img {
     width: 100%;
@@ -199,14 +196,13 @@ body {
     position: fixed;
     left: 50%;
     bottom: 0;
-    font-size: 12px;
     transform: translateX(-50%);
     text-transform: uppercase;
-    padding: 18px 30px;
+    padding: 12px 30px;
     background-color: #161b21;
     color: #f4a950;
      font-family: 'Montserrat', sans-serif;
-     font-size: 16px;
+     font-size: 12px;
      font-weight: bold;
   }
 

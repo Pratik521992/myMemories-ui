@@ -27,7 +27,6 @@ function WishCard({wish}) {
   if (!wish) {
     return null;
   }
-  console.log(open)
   return (
     
 
@@ -45,7 +44,7 @@ function WishCard({wish}) {
         </div>
         <div className="text-container">
           <p id="head">{wish.main}</p>
-          <p className="txt">{wish.wishes}</p>
+          <p style={{fontSize: wish.fontSize || ''}} className="txt">{wish.wishes}</p>
           <p className="txt">{wish.writerName}</p>
         </div>
       </div>

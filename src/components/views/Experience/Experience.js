@@ -45,22 +45,22 @@ export const Experience = () => {
             index: 3,
             image: "/familia3.jpg",
             main: "3",
-            wishes: " asdasd",
+            wishes: " NA",
             writerName: "No matter how rare we speak... No matter how many fruits the trees will reap... Its something that no scale can measure... You are my world and my treasure...Its your love and support I seek... My fav couple are You and Prateek...   --Chints"
         },
         {
             id : "Pinchu",
             index: 4,
             image: "/pinchu.jpg",
-            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈🎈 ",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈 ",
             wishes: " Happy birthday baashi, I love you a lot , you are my best friend😍😍😍  I love talking to you and fighting with you , you are my crime partner  ",
             writerName: "Pinchu"
         },
         {
             id : "Nidhidi/anshuman",
             index: 5,
-            image: "/pinchu.jpg",
-            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈 ",
+            image: "/nidhidi.png",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈 ",
             wishes: "Dear Juhi, Wish you a very happy birthday! Always stay your cheerful, bubbly, kind, smart, beautiful, and caring self. Anshuman and I wish you many happy and blissful moments in the coming year. May all your wishes come true! 😍🎊🎁🎂",
             writerName: "Nidhi and Anshuman"
         },
@@ -92,13 +92,13 @@ export const Experience = () => {
         {
             id : "pranay",
             index: 9,
-            image: "/pranay.png",
+            image: "/pranay.jpg",
             main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
             wishes: " Happy birthday to one of the nicest people I have ever met. Your this year will be way better than 2020. May this year we all get together to party and celebrate. Happy Bday Juhi !! May you get all the success and happiness in life.",
             writerName: "Pranay"
         },
         {
-            id : "samba/suman",
+            id : "samba/wasim",
             image: "/friendsall.jpg",
             index: 10,
             main: "3",
@@ -106,12 +106,13 @@ export const Experience = () => {
             writerName: "NA"
         },
         {
-            id : "wasim",
+            id : "Suman",
             index: 11,
-            image: "/friend4.png",
-            main: "3",
-            wishes: " asdasd",
-            writerName: "NA"
+            image: "/suman.jpg",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Hey Zu...Wish u a very happy birthday babes..may u acheive all the happiness in the world. Mujhe wo hamesha yaad rahega kaise mai and Sonu tujhe mana kar rhe the hamare flat me aane se Kolkata me..but thank god tu aayi..nhi to hum kabhi bhi itne achhe dost nhi ho pate.. it's been 5 years of knowing you..hum Kolkata me roommates the ..phr Hyderabad me roommates hue and itni Masti ki saath me..and there are so many memorable moments of us which i will cherish my whole life..You are one of the most important persons in my life whom i would want to keep forever in my life. You are one of the most kind persons ,i have known so far. Hamesha khush rehna Zu..Bhagwaan tujhe saari khushiyan de jo sab tu deserve karti hai..and once again Happy Birthday ..Love you - Sumo",
+            writerName: "",
+            fontSize: "0.95em"
         },
         {
             id : "shivika/Nimisha",
@@ -119,7 +120,7 @@ export const Experience = () => {
             image: "/shivikaNimi.jpg",
             main: "3",
             wishes: " asdasd",
-            writerName: "NA"
+            writerName: "Hey Gorgeous, happiest birthday 🎉 May you be blessed with avalanche of success and joy. Miss the fun from last year, but soon we will meet over our favourite drink (chai). You are a gem of a person, stay the same babe. I love you 😘😘😘   --Nimisha"
         },        
         {
             id : "Family2",
@@ -141,9 +142,10 @@ export const Experience = () => {
             id: "correct",
             index: 15,
             image: "",
-            main: "Dear visitor",
-            wishes: " Correct OTP",
-            writerName: ""
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: "Having you in my life is probably the best thing that has happened to me. US makes me feel , COMPLETE. The moments like spending the entire night in Kolkata station, flirting in Amitavos Sir's classes in training, our first Date, me coming to hyd to meet up again, then our first kiss, then followed by many many uber rides back to pg from clubs, then our parties in mantri, our many fights( mostly u fight huh) and then patching things back,..... all are building block of US and they all were magical. From August 2015  to March 2020, we were constantly beside each other ( in person ). Although since last 8 months, we were 1019 km apart, The US bond is strong and unshaken.  I hope we will meet very soon because i miss the US moment quite a lot.",
+            writerName: "Happy birthday pupu. I Love you.😘",
+            fontSize: "0.95em"
         }
 
     ]
@@ -247,7 +249,8 @@ export const Experience = () => {
                                 currentIndex={person.index}
                                 image={person.image}
                                 alt={''}
-                                setIndex={setIndex} 
+                                setIndex={setIndex}
+                                fontSize={person.fontSize}
                             />
                             })
                         }

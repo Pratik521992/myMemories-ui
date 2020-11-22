@@ -28,7 +28,7 @@ function LeftMenu(props) {
         <BottomNavigationAction
           icon={
             <>
-              <FavoriteIcon style={{ fontSize: 30, color: colors.main }} />
+              <FavoriteIcon href="/" style={{ fontSize: 30, color: colors.main }} />
               <a style={{ color: colors.main }} href="/">
                 My Memories
               </a>
@@ -46,7 +46,7 @@ function LeftMenu(props) {
             <>
               <CakeIcon style={{ fontSize: 30, color: colors.main }} />
               <Link style={{ color: colors.main }} to="/experience">
-                My Experience
+                My Wishes
               </Link>
             </>
           }
