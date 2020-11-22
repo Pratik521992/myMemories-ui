@@ -29,12 +29,10 @@
 }
 
 
-.area1{
-    background: -webkit-linear-gradient(to left, #8f94fb, rgba(214, 155, 155, 0.637));  
+.area{ 
     width: 100%;
     height:100vh;
     position: relative;
-   
 }
 
 .area2{
@@ -174,7 +172,7 @@
 
 .enter-btn {
     background-color: black !important;
-    color: white !important;
+    color: #f4a950 !important;
     border-radius: 999px !important;
     height: 44px;
     width: 244px !important;
@@ -205,7 +203,24 @@ body {
     transform: translateX(-50%);
     text-transform: uppercase;
     padding: 18px 30px;
-    background-color: rgb(22, 2, 2);
-    color: rgb(233, 223, 223);
-    font-family: 'Arial';
+    background-color: #161b21;
+    color: #f4a950;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+  }
+
+  .hero-cta-2{
+    position: absolute;
+    left: 50%;
+    bottom: 100vh;
+    font-size: 12px;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    padding: 12px 30px;
+    background-color: #161b21;
+    color: #f4a950;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 16px;
+     font-weight: bold;
   }
