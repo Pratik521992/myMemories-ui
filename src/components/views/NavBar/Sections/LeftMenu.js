@@ -35,12 +35,7 @@ function LeftMenu(props) {
             </>
           }
         ></BottomNavigationAction>
-        <BottomNavigationAction
-          style={{ fontSize: 30, color: colors.main }}
-          onClick={openModal}
-          label="Add Memories"
-          icon={<AddCircleIcon style={{ fontSize: 30, color: colors.main }} />}
-        />
+        
         <BottomNavigationAction
           icon={
             <>

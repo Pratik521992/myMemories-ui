@@ -28,15 +28,15 @@ export const Experience = () => {
         {   id : "parents",
             index: 1,
             image: "/familia.png",
-            main: "1",
-            wishes: " NA",
-            writerName: "NA"
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: "May this day bring to you all things that make u smile.Happy Birthday dearest Juhi.Mammi&Papa 😘😘😘",
+            writerName: "Hi Roomie,  I wish u a very Happy Birthday 🥳 . Initially I thought that eventually I will kick u out of the room, but we got along well, maybe because we both just like to eat and sleep😀.  I hope that atleast this year that u will get ur own plush toys 😛. Looking forward to take u for a walk tonight ---Pogo (Choti)"
         },
         {
             id : "nehadi/Jiaji",
             index: 2,
             image: "/familia2.jpg",
-            main: "Jiaji and Nehadi",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
             writerName: "Chutka you are the bestest sister and bestest baashi , we all love you a lot 😍😍😍😘😘😘 you are my best friend , I can share each and everything with you , I love you very much  God bless you with lots of happiness, love and good health 😘😘😘 Happiest birthday chutka 😍😘😘😘😘😘😘 Neha didi",
             wishes: "Happy birthday dearest Juhi! You are the sweet little sister that I got as a surprise gift. You are innocent yet very sensible. May you get everything that you ever wanted. God bless you and keep smiling always. Happy birthday :) Happy Birthday 🎈 Juhi!  -Jiaji"
         },
@@ -44,8 +44,8 @@ export const Experience = () => {
             id : "brothers",
             index: 3,
             image: "/familia3.jpg",
-            main: "3",
-            wishes: " NA",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Happy Birthday Jduuu. Enjoy your day to the fullest.. I just wanna say that it's very rare to find so loving, caring, selfless, and fun-loving brother, I am glad  u did :P . Happy birthday Pinchu ki basi. Love u a lot! ---Bhai",
             writerName: "No matter how rare we speak... No matter how many fruits the trees will reap... Its something that no scale can measure... You are my world and my treasure...Its your love and support I seek... My fav couple are You and Prateek...   --Chints"
         },
         {
@@ -68,9 +68,9 @@ export const Experience = () => {
             id : "rahul/Sakshi",
             index: 6,
             image: "/sakshi.png",
-            main: "Rahul and Sakshi",
-            wishes: " Happy Birthday 🎈 Juhi! I wish you nothing but joy and happiness, today and always. You’re an incredible friend and deserve only the best life has to offer. Have a celebratory drink (or two) from me! Happy Birthday 🎉 🥳 Rahul",
-            writerName: "NA"
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Happy Birthday 🎈 Juhi! I wish you nothing but joy and happiness, today and always. You’re an incredible friend and deserve only the best life has to offer. Have a celebratory drink (or two) from me! Happy Birthday 🎉",
+            writerName: "Rahul and Sakshi"
         },
         {
             id : "Abishek",
@@ -82,12 +82,12 @@ export const Experience = () => {
         },
         
         {
-            id : "Sivali",
+            id : "Shivali",
             index: 8,
             image: "/friend2.jpg",
-            main: "3",
-            wishes: " NA",
-            writerName: "NA"
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Zuiii...you are the kindest soul I have met in all these years, being by my side always. I hope we keep the crazy years alive just like college times. Happy happy birthday to Zuii 🎉🎉 We love you 😘😘",
+            writerName: "Shivali"
         },        
         {
             id : "pranay",
@@ -101,9 +101,10 @@ export const Experience = () => {
             id : "samba/wasim",
             image: "/friendsall.jpg",
             index: 10,
-            main: "3",
-            wishes: " asdasd",
-            writerName: "NA"
+            fontSize: "0.85em",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈",
+            writerName: " Happy Birthday Juhi🎉🎉🎉. On your birthday may all that you asked from God be granted to you hundred fold! Happy Birthday to my sweetest friend. Always keep smiling the way you do! Have an amazing day and an even more special year ahead. May God Bless you. --Samba",
+            wishes: "Zuiii(partner in crime) 😎 wish you many many happy returns of the day 🥳🥳. Let me tell you one thing. Birthdays come around every year, but friends like you only come once in a lifetime and for me it has been a journey of 5+ long years and many many more to come 🎊🎊😃😃😄. I hope your birthday is as sweet as the cake. And the year to follow is filled with as much joy as you bring your friends!  Aur jald se jald tu aur pratik khushkhabri sunado shaadi ki 😃😀😅  Once again wish you many many happy returns of the day and enjoy your day. Party hard hav fun 🎊🥰😃 --Wasim & Hajra 😃"
         },
         {
             id : "Suman",
@@ -118,17 +119,17 @@ export const Experience = () => {
             id : "shivika/Nimisha",
             index: 12,
             image: "/shivikaNimi.jpg",
-            main: "3",
-            wishes: " asdasd",
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Juhiiiiiii! 😘 It has been ages that we have met over a cup of chai.  From calling you at my home for a cup of chai to ending up drinking something else :p  We had Some amazing time 😆😆😆 This birthday is a Reminder for you that you are made for amazing things. May you get the best in the world.  --Shivika ",
             writerName: "Hey Gorgeous, happiest birthday 🎉 May you be blessed with avalanche of success and joy. Miss the fun from last year, but soon we will meet over our favourite drink (chai). You are a gem of a person, stay the same babe. I love you 😘😘😘   --Nimisha"
         },        
         {
             id : "Family2",
             index: 13,
             image: "/newFamilia.jpg",
-            main: "3",
-            wishes: " asdasd",
-            writerName: "NA"
+            main: "🎈🎈🎈🎈🎈🎈🎈🎈",
+            wishes: " Many Many happy returns of the day.  May your day be filled with happiness and love. May all of your wishes and dreams be fulfilled. God bless you. --- Uncle & Aunty",
+            writerName: "Happy Birthday Juhi Di!! Hope you have a blast! 🍰🍰🎂🎂  --Rishi"
         },
         {
             id: "error",
@@ -290,7 +291,7 @@ export const Experience = () => {
                                         </Button>
                                         <Button onClick={() => {
                                             setOtpToggle(false);
-                                            if (otp === 'ukowdatiluna') {
+                                            if (otp === 'unodatiluna') {
                                                 setIndex(15)
                                             }
                                             else {
