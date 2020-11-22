@@ -73,20 +73,21 @@ export const Experience = () => {
             writerName: "NA"
         },
         {
-            id : "Sivali",
-            index: 7,
-            image: "/friend2.jpg",
-            main: "3",
-            wishes: " NA",
-            writerName: "NA"
-        },
-        {
             id : "Abishek",
-            index: 8,
+            index: 7,
             image: "/abhishek.png",
             main: "🎈🎈🎈🎈",
             wishes: " “On your birthday we wish for you that whatever you want most in life it comes to you just the way you imagined it or better.  Sending your way a bouquet of happiness…To wish you a very happy birthday!”🎁🍰🍫🥮🎉",
             writerName: "Abhishek"
+        },
+        
+        {
+            id : "Sivali",
+            index: 8,
+            image: "/friend2.jpg",
+            main: "3",
+            wishes: " NA",
+            writerName: "NA"
         },
         {
             id : "samba/suman",
